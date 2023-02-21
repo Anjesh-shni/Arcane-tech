@@ -1,0 +1,1 @@
+const credit = '©arcane teams';

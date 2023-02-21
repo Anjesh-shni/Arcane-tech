@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'view/homeview/home_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Arcane',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        useMaterial3: true,
+        brightness: Brightness.dark,
       ),
-      home: Container(),
+      debugShowCheckedModeBanner: false,
+      home: const HomeView(),
     );
   }
 }
