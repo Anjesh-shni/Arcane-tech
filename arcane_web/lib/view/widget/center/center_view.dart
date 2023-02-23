@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
+
 
 class CenterView extends StatelessWidget {
   final Widget child;
@@ -9,7 +8,11 @@ class CenterView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      
+      padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
+      alignment: Alignment.topCenter,
+      child: ConstrainedBox(constraints:const BoxConstraints(maxWidth: 1200,),
+      child: child,
+      ),
     );
   }
 }

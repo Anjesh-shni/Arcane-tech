@@ -11,7 +11,7 @@ class NavigationHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: color1,
-      height: 70,
+      height: 60,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -59,7 +59,6 @@ class NavigationHeader extends StatelessWidget {
                   ),
                 ),
               ),
-              const SizedBox(width: 60,),
               ],),
           ],
         ),

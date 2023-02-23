@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'view/homeview/home_view.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     debugPrint('========STARTS=======');
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Arcane',
       theme: ThemeData(
         useMaterial3: true,
