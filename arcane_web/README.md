@@ -1,6 +1,6 @@
 # arcane_web
 
-A new Flutter project.
+Arcane Technology is start-up company run by the group of Developer.
 
 ## Getting Started
 
