@@ -1,6 +1,6 @@
-# arcane_web
+# Arcane_web
 
-Arcane Technology is start-up company run by the group of Developer.
+Arcane Technology is a start-up company run by the group of Developer.
 
 ## Getting Started
 
